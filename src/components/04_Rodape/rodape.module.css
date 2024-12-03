@@ -1,0 +1,11 @@
+footer {
+    background-color: var(--corBlack);
+}
+
+.containerFooter {
+    font-size: 24px;
+    text-align: center;
+    color: var(--corWhite);
+    background-color: var(--corBlack);
+    padding-top: 16px;
+}

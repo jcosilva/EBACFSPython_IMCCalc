@@ -1,0 +1,41 @@
+.containerResultado {
+    font-size: 24px;
+    text-align: center;
+    color: var(--corBlack);
+    background-color: var(--corWhite);
+}
+
+.resultadoTexto {
+    font-size: 24px;
+    padding: 16px;
+    text-align: center;
+}
+
+.resultadoTabela {
+    font-size: 24px;
+    width: 100%;
+    border: 2px solid var(--corBlack);
+    border-collapse: collapse;
+}
+
+.tabelaHeader {
+    border: 2px solid var(--corBlack);
+    max-width: 33.33%;
+    font-weight: bold;
+    background-color: var(--corGray);
+    padding: 10px;
+}
+
+.tabelaCorpo {
+    border: 2px solid var(--corBlack);
+    max-width: 33.33%;
+    padding: 10px;
+}
+
+.linhaAtiva {
+    background-color: var(--corPink);
+}
+
+.linhaInativa {
+    background-color: var(--corWhite);
+}

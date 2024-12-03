@@ -1,0 +1,35 @@
+.containerFormulario {
+    font-size: 24px;
+    text-align: center;
+    color: var(--corBlack);
+    background-color: var(--corWhite);
+    text-wrap: wrap;
+}
+
+.formularioList {
+    display: flex;
+    justify-content: space-around;
+}
+
+.formularioItem {
+    list-style: none;
+    padding: 20px;
+}
+
+.formularioItem input {
+    height: 40px;
+    margin-left: 20px;
+    text-align: center;
+    font-size: 16px;
+    max-width: 100px;
+}
+
+.formularioItem button {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    padding: 0 20px;
+    font-size: 24px;
+    cursor: pointer;
+}
